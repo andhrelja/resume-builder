@@ -1,0 +1,5 @@
+\section{{\mysidestyle Education}}
+
+    \textbf{{{institution_name}}} \vspace{{2mm}}\\\vspace{{1mm}}%
+    \textsl{{{education_outcome}}} \hfill \textbf{{{start_dt} -- {end_dt}}}\\
+    {related_work}

@@ -1,0 +1,50 @@
+\documentclass[margin,line]{{resume}}
+\usepackage[T1]{{fontenc}}
+\usepackage{{lmodern}}
+\usepackage[hidelinks]{{hyperref}}
+\usepackage{{tikz}}
+\setlength{{\textheight}}{{9.7in}}
+
+\begin{{document}}
+\begin{{tikzpicture}}
+\clip (0,0) circle (1cm) ;
+\node[anchor=center] at (0,0) {{\includegraphics[width=2cm]{{assets/myface}}}};
+\end{{tikzpicture}} \name{{\Large {author_full_name}}}
+\begin{{resume}}
+
+    \section{{\mysidestyle Contact\\Information}}
+
+    Email: \href{{mailto:{author_email}}}{{\texttt{{{author_email}}}}} \hfill
+    GitHub: \href{{{author_github}}}{{\texttt{{{author_github_pretty}}}}} \hfill
+    LinkedIn: \href{{{author_website}}}{{\texttt{{{author_website_pretty}}}}} \hfill
+
+    \vspace{{3mm}}
+
+    \section{{\mysidestyle About Me}}
+
+    {author_about}
+
+    \vspace{{3mm}}
+
+    \section{{\mysidestyle Professional\\Experience}}
+
+    {professional_experience}
+
+    \vspace{{3mm}}
+    
+    {published_works}
+
+    \vspace{{3mm}}
+
+    {programming_experience}
+
+    \vspace{{3mm}}
+
+    {education}
+
+    \vspace{{3mm}}
+    
+    {languages}
+
+\end{{resume}}
+\end{{document}}
