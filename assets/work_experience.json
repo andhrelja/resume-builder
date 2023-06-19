@@ -1,0 +1,30 @@
+[
+    {
+        "Project name": "Ladenburg Thalmann: Data Analytics Phase 1",
+        "Start and End Date": "08/2019 – 02/2020",
+        "Project Role": "developer",
+        "Project Involvement": "I was involved in developing ETL solutions using pure SQL on on-prem servers. I used Python to automate our testing efforts and was not included in business decisions or client communication.",
+        "SDLC Phases": "Development, Testing"
+    },
+    {
+        "Project name": "Pioneer Natural Resources - PXD",
+        "Start and End Date": "03/2020 – 06/2021",
+        "Project Role": "developer",
+        "Project Involvement": "I was involved in developing enterprise ETL solutions using Oracle and other technologies (Oracle ODI, Oracle WebLogic, Tibco Data Virtualization, Spotfire BI). I worked with an enterprise production system, well-structured Azure Boards and transitioned into a Mid Data Engineer. I was included in analyses that impact business decisions, mostly in the discovery phases where I would elaborate effects of proposed solutions to the client.",
+        "SDLC Phases": "Design, Development, Testing, Maintenance"
+    },
+    {
+        "Project name": "Front Burner: EDW Phase 1",
+        "Start and End Date": "07/2021 – 10/2021",
+        "Project Role": "developer",
+        "Project Involvement": "I was involved in developing an ETL solution using Python and AWS technologies (DynamoDB, Glue, Lake Formation, Lambda). I developed the data ingestion engine from scratch, collaborating with a System Architect and a DevOps Engineer. I did not have direct communication with the client, I collaborated with our tech team to deliver a high-quality system in a small amount of time.",
+        "SDLC Phases": "Design, Development, Testing"
+    },
+    {
+        "Project name": "Associated-Bank - CDPT",
+        "Start and End Date": "12/2021 – ",
+        "Project Role": "developer",
+        "Project Involvement": "I was involved in developing a SQL CI/CD solution using Python, AWS and Snowflake technologies (CodeBuild, GitHub (Actions), Flyway, custom Python packages). A colleague DevOps Engineer and I developed the CI/CD from scratch, collaborating with a System Architect, the client and the solution users (multiple SQL development teams) in a “Startup” fashion. I had direct communication with the client and was involved in business decisions (discovery, requirements, strategy). ",
+        "SDLC Phases": "Strategy, Design, Development, Testing, Maintenance"
+    }
+]

@@ -1,0 +1,46 @@
+[project]
+name = "resume-builder"
+description = "Resume Builder Python Package"
+dynamic = ["version"]
+readme = "README.md"
+authors = [
+    {name = "Andrea Hrelja", email = "andhrelja@hotmail.com"}
+]
+requires-python = ">=3.9"
+keywords = ["resume", "latex", "pdf", "data-engineering", "data-analysis", "python", "sql", "aws"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Natural Language :: Croatian",
+    "Natural Language :: English",
+    "License :: Freely Distributable",
+    "Topic :: Office/Business",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.setuptools.packages.find]
+include = [
+    "resume_builder"
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "resume_builder.__version__"}
+
+[project.urls]
+Documentation="https://github.com/andhrelja/resume_builder/blob/main/README.md"
+Source="https://github.com/andhrelja/resume_builder"
+Issues="https://github.com/andhrelja/resume_builder/issues"
+Changelog="https://github.com/andhrelja/resume_builder/blob/main/CHANGELOG.md"
+
+
+[build-system]
+requires = [
+    "setuptools>=67",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
