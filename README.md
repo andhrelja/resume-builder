@@ -19,11 +19,15 @@ Sourced from: https://github.com/brndnmtthws/resume
 
 ## Usage
 
+
 ```shell
 git clone https://github.com/andhrelja/resume-builder
 cd resume-builder
 pip install .
+python -m resume_builder
 ```
+
+These commands will generate a `resume.tex` file that can be converted to PDF using [pdflatex](https://linux.die.net/man/1/pdflatex).
 
 Update `resume.toml` with desired values. If adding new dictionary keys, make sure to create a corresponding `components/<component>.pytex` file and add the dictionary keys to `components/main.pytex`.
 
