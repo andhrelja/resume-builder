@@ -20,6 +20,34 @@
         "Amazon Comprehend": 1,
         "AWS Lambda": 2
     },
+    "Azure": {
+        "Azure Kubernetes Service": 2,
+        "Azure Container Registry": 2,
+        "Azure Key Vault": 2,
+        "Azure Database for PostgreSQL flexible servers": 2,
+        "Azure Virtual Machines": 2,
+        "Azure Storage Accounts": 2,
+        "Azure Function App": 2,
+        "Azure Virtual Networks": 2,
+        "Azure App Services": 1
+    },
+    "DBMS": {
+        "MySQL": 2,
+        "Oracle Database": 2,
+        "SQLite": 2,
+        "PostgreSQL": 2,
+        "Snowflake": 2,
+        "Microsoft SQL Server": 2
+    },
+    "Development Framework or Library": {
+        "Django": 2,
+        "SQLAlchemy": 1,
+        "Node.js": 1,
+        "pytest": 1,
+        "TensorFlow": 1,
+        "Material-UI": 1,
+        "FastAPI": 1
+    },
     "Programming, Query, or Other Language": {
         "Bash": 2,
         "C#": 1,
@@ -35,15 +63,6 @@
         "PL/pgSQL": 2,
         "Transact-SQL": 2
     },
-    "Development Framework or Library": {
-        "Django": 2,
-        "SQLAlchemy": 1,
-        "Node.js": 1,
-        "pytest": 1,
-        "TensorFlow": 1,
-        "Material-UI": 1,
-        "FastAPI": 1
-    },
     "Tools": {
         "TIBCO Spotfire": 1,
         "Jira": 1,
@@ -55,28 +74,24 @@
         "Docker": 1,
         "Git": 2,
         "Confluence": 1,
+        "Notion": 1,
         "Microsoft Visio": 1,
         "Oracle BI Administration Tool": 2,
         "Microsoft Office": 2
     },
-    "DBMS": {
-        "MySQL": 2,
-        "Oracle Database": 2,
-        "SQLite": 2,
-        "PostgreSQL": 2,
-        "Snowflake": 2,
-        "Microsoft SQL Server": 2
-    },
     "Platform": {
         "HTTP Protocols": 2,
         "Linux": 2,
-        "Unix": 1
+        "Unix": 2,
+        "Terraform": 2,
+        "OpenTofu": 2,
+        "GitHub Actions": 3
     },
     "Other": {
         "Prototyping": 2,
         "Machine Learning": 1,
         "Data Modeling": 1,
-        "Data Version Control": 1,
-        "CI/CD": 1
+        "Data Version Control": 2,
+        "CI/CD": 2
     }
 }

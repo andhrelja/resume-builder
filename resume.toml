@@ -9,12 +9,26 @@ author_about="IT enthusiast coming from Istra county in Croatia. During my 4 yea
 
 
 [[professional_experience]]
+company_name="Kern AI"
+company_location="Gerhart-Hauptmann-Allee 71, Eichwalde"
+project_name="Cloud Infrastructure"
+project_summary="Migrate Digital Ocean deployed production system to Azure Kubernetes Service"
+start_dt="11/2023"
+end_dt="Present"
+project_role="Cloud Engineer"
+project_involvement=[
+    "Designed a system migration plan (on-prem and Digital Ocean to Azure Kubernetes Service) with the team",
+    "Consolidated environment-specific infrastructure stacks into a single OpenTofu stack, orchestrated by GitHub Actions",
+]
+sdlc_phases="Strategy, Design, Development, Testing, Maintenance"
+
+[[professional_experience]]
 company_name="iOLAP"
 company_location="Rijeka, Croatia (TX, USA)"
 project_name="Banking Industry"
 project_summary="Build a CI/CD system to streamline DW development on Snowflake for multiple teams in the organization"
 start_dt="12/2021"
-end_dt="Present"
+end_dt="11/2023"
 project_role="DataOps Engineer"
 project_involvement=[
     "Developed a version controlled SQL CI/CD solution designed by a System Architect using Python, AWS and Snowflake technologies (CodeBuild, GitHub (Actions), Flyway, custom Python packages)",
