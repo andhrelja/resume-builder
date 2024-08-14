@@ -18,6 +18,7 @@ end_dt="Present"
 project_role="Cloud Engineer"
 project_involvement=[
     "Designed a system migration plan (on-prem and Digital Ocean to Azure Kubernetes Service) with the team",
+    "Developed a CI/CD pipeline using OpenTofu, GitHub Actions and Kubernetes",
     "Consolidated environment-specific infrastructure stacks into a single OpenTofu stack, orchestrated by GitHub Actions",
 ]
 sdlc_phases="Strategy, Design, Development, Testing, Maintenance"
