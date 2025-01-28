@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/andhrelja/resume-builder/compare/v1.0.1...v1.0.2) (2025-01-28)
+
+
+### Performance Improvements
+
+* update tech_stack.json ([23b31d0](https://github.com/andhrelja/resume-builder/commit/23b31d091e323b40d9fa6dbc3e593ed4623be371))
+
+
+
 ## [1.0.1](https://github.com/andhrelja/resume-builder/compare/v1.0.0...v1.0.1) (2024-08-14)
 
 
