@@ -1,0 +1,150 @@
+{
+    "author": {
+        "first_name": "Andrea",
+        "last_name": "Hrelja",
+        "location": "Rijeka, Croatia",
+        "year_of_birth": "1996",
+        "email": "andhrelja@hotmail.com",
+        "github": "https://github.com/andhrelja",
+        "github_pretty": "github/andhrelja",
+        "website": "https://www.linkedin.com/in/andhrelja/",
+        "website_pretty": "linkedin/andhrelja",
+        "about": "IT enthusiast coming with over 4+ years of professional experience as a \\textit{{Data Engineer}} and 1+ years of professional experience as a \\textit{{Platform/DevOps Engineer}}. I have worked with various production systems and clients, as a team member and as a one-man band. I am a positive, detail-oriented, productive individual with a can-do attitude driven by impact."
+    },
+    "professional_experience": [
+        {
+            "company_name": "Kern AI Gmbh",
+            "start_date": "11/2023",
+            "end_date": "Present",
+            "roles": [
+                {
+                    "title": "Backend Developer",
+                    "start_date": "01/2025",
+                    "end_date": "Present",
+                    "description": [
+                        "Enhancement and maintenance of a Python FastAPI Application"
+                    ],
+                    "sdlc": [
+                        "Development",
+                        "Testing",
+                        "Maintenance"
+                    ]
+                },
+                {
+                    "title": "Cloud Engineer",
+                    "start_date": "11/2023",
+                    "end_date": "01/2025",
+                    "description": [
+                        "Led the migration of a production system from DigitalOcean to Azure Kubernetes Service, improving system scalability and reliability.",
+                        "Designed and implemented a CI/CD pipeline using OpenTofu, GitHub Actions, and Kubernetes, streamlining the deployment process and reducing manual errors.",
+                        "Consolidated multiple environment-specific infrastructure stacks into a single OpenTofu stack, improving consistency and reducing maintenance overhead across environments."
+                    ],
+                    "sdlc": [
+                        "Strategy",
+                        "Design",
+                        "Development",
+                        "Testing",
+                        "Maintenance"
+                    ]
+                }
+            ]
+        },
+        {
+            "company_name": "iOLAP Inc.",
+            "roles": [
+                {
+                    "title": "DataOps Engineer",
+                    "start_date": "12/2021",
+                    "end_date": "11/2023",
+                    "description": [
+                        "Developed a version-controlled SQL CI/CD pipeline using Python, AWS, and Snowflake technologies, improving deployment speed and reliability for multiple SQL development teams.",
+                        "Collaborated with cross-functional teams and clients to design tailored solutions, handling discovery, requirements gathering, and strategy discussions.",
+                        "Built and maintained the CI/CD infrastructure, streamlining data warehouse development across teams."
+                    ],
+                    "sdlc": [
+                        "Strategy",
+                        "Design",
+                        "Development",
+                        "Testing",
+                        "Maintenance"
+                    ]
+                },
+                {
+                    "title": "Data Engineer",
+                    "start_date": "07/2021",
+                    "end_date": "10/2021",
+                    "description": [
+                        "Developed a Python ELT pipeline on AWS, optimizing data processing and flow.",
+                        "Collaborated with system architects to design a scalable, efficient data architecture for downstream analytics.",
+                        "Delivered a robust ETL solution, ensuring data consistency and quality."
+                    ],
+                    "sdlc": [
+                        "Design",
+                        "Development",
+                        "Testing"
+                    ]
+                },
+                {
+                    "title": "BI Developer",
+                    "start_date": "03/2020",
+                    "end_date": "06/2021",
+                    "description": [
+                        "Supported and enhanced enterprise ETL solutions using Oracle technologies (ODI, WebLogic), Tibco Data Virtualization, and Spotfire BI, improving data availability and reporting accuracy.",
+                        "Transitioned into a Mid-Level Data Engineer role, leading efforts to optimize ETL processes and improve system performance.",
+                        "Provided analysis and input during discovery phases, evaluating the impact of proposed solutions on business operations."
+                    ],
+                    "sdlc": [
+                        "Design",
+                        "Development",
+                        "Testing",
+                        "Maintenance"
+                    ]
+                },
+                {
+                    "title": "SQL Developer",
+                    "start_date": "08/2019",
+                    "end_date": "02/2020",
+                    "description": [
+                        "Contributed to the development of a data warehouse using SQL on on-premise servers, ensuring data integration and reporting accuracy.",
+                        "Automated testing with Python, reducing manual testing and ensuring data integrity."
+                    ],
+                    "sdlc": [
+                        "Development",
+                        "Testing"
+                    ]
+                }
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution_name": "Faculty of Informatics and Digital Technologies, University of Rijeka",
+            "education_outcome": "univ. ms. inf.",
+            "start_date": "2020",
+            "end_date": "2022",
+            "related_work": "Master's thesis: \\href{{https://zir.nsk.hr/islandora/object/infri%3A999}}{{\\texttt{{Information Spread Analysis on Twitter}}}}"
+        },
+        {
+            "institution_name": "Department of Informatics, University of Rijeka",
+            "education_outcome": "univ. bacc. inf.",
+            "start_date": "2016",
+            "end_date": "2020",
+            "related_work": "Final thesis: \\href{{https://zir.nsk.hr/islandora/object/infri%3A685}}{{\\texttt{{Solving Computer networks course problems on the computer}}}}"
+        }
+    ],
+    "published_works": {
+        "title": "Prediction of COVID-19 tweeting: classification based on graph neural networks",
+        "authors": "M. Petrović, A. Hrelja, A. Meštrović",
+        "doi": "10.23919/MIPRO55190.2022.9803426"
+    },
+    "languages": [
+        "\\textbf{{Croatian}} (L1)",
+        "\\textbf{{English}} (C1)",
+        "\\textbf{{Italian}} (A2)"
+    ],
+    "hobbies": [
+        "\\textbf{{Reading}}",
+        "\\textbf{{Road Trips}}",
+        "\\textbf{{Movies}}"
+    ]
+}

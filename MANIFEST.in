@@ -1,1 +1,2 @@
 include resume_builder/version.json
+include resume_builder/config.json

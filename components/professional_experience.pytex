@@ -1,9 +1,0 @@
-    \textbf{{{project_name}}}, {company_name} \vspace{{2mm}}\\\vspace{{1mm}}%
-    \textsl{{{project_role}}} \hfill \textbf{{{start_dt} -- {end_dt}}}\\
-    {project_summary}
-
-    \begin{{itemize}}
-        {project_involvement}
-    \end{{itemize}}
-
-    SDLC: {sdlc_phases}

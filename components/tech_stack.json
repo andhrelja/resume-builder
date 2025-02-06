@@ -1,0 +1,91 @@
+{
+    "AWS": {
+        "AWS CloudFormation": 2,
+        "AWS CodeBuild": 2,
+        "AWS CodeCommit": 1,
+        "AWS Command Line Interface": 2,
+        "AWS Glue": 2,
+        "AWS Lambda": 2,
+        "AWS Lake Formation": 1,
+        "AWS Management Console": 1,
+        "AWS Secrets Manager": 2,
+        "AWS Step Functions": 1,
+        "Amazon Athena": 1,
+        "Amazon API Gateway": 1,
+        "Amazon CloudWatch": 1,
+        "Amazon Comprehend": 1,
+        "Amazon DynamoDB": 2,
+        "Amazon EC2": 2,
+        "Amazon Redshift": 2,
+        "Amazon Simple Notification Service (SNS)": 2,
+        "Amazon Simple Storage Service (S3)": 2
+    },
+    "Azure": {
+        "Azure App Services": 1,
+        "Azure Container Registry": 2,
+        "Azure Database for PostgreSQL flexible servers": 2,
+        "Azure DevOps": 2,
+        "Azure Function App": 2,
+        "Azure Key Vault": 2,
+        "Azure Kubernetes Service": 2,
+        "Azure Storage Accounts": 2,
+        "Azure Virtual Machines": 2,
+        "Azure Virtual Networks": 2
+    },
+    "DBMS": {
+        "DBeaver": 2,
+        "Microsoft SQL Server": 2,
+        "MySQL": 2,
+        "Oracle Database": 2,
+        "PostgreSQL": 2,
+        "Snowflake": 2,
+        "SQLite": 2
+    },
+    "Development Framework or Library": {
+        "Django": 2,
+        "FastAPI": 2,
+        "Material-UI": 1,
+        "Node.js": 1,
+        "pytest": 1,
+        "SQLAlchemy": 2,
+        "TensorFlow": 1
+    },
+    "Programming, Query, or Other Language": {
+        "C#": 1,
+        "C++": 1,
+        "Bash": 3,
+        "CSS": 1,
+        "HTML": 2,
+        "Java": 1,
+        "JavaScript": 1,
+        "Oracle PL/SQL": 2,
+        "PHP": 1,
+        "PL/pgSQL": 2,
+        "Python": 3,
+        "SQL": 3
+    },
+    "Tools": {
+        "Confluence": 2,
+        "Docker": 3,
+        "Git": 3,
+        "Jira": 2,
+        "Notion": 2
+    },
+    "Platform": {
+        "GitHub Actions": 3,
+        "HTTP Protocols": 2,
+        "Kubernetes": 3,
+        "Linux": 3,
+        "Terraform": 3,
+        "Unix": 2,
+        "OpenAI": 2
+    },
+    "Other": {
+        "CI/CD": 3,
+        "Data Modeling": 2,
+        "LLM RAG": 2,
+        "Machine Learning": 1,
+        "Prototyping": 2,
+        "Version Control": 2
+    }
+}

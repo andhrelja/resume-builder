@@ -74,7 +74,7 @@
 \raggedright
 \vspace*{2.5ex}
 
-\Large Andrea \textbf{\textsc{Hrelja}} \normalsize 
+\Large \VAR{author.first_name} \textbf{\textsc{\VAR{author.last_name}}} \normalsize 
 
 % Centering without extra vertical spacing
 \null\hfill\includegraphics[width=0.65\textwidth]{assets/profile.png}\hfill\null
@@ -82,47 +82,30 @@
 \vspace*{0.5ex} % Extra space after the picture
 
 \headleft{Profile Summary}
-\smaller{IT enthusiast with 4+ years of professional experience as a \textit{Data Engineer} and 1+ years of professional experience as a \textit{Platform/DevOps Engineer}. I have worked with various production systems and clients, as a team member and as a one-man band. I am a positive, detail-oriented, productive individual with a can-do attitude driven by impact.}
+\smaller{\VAR{author.about}}
 
 \headleft{Contact details}
 
 \small % To fit more content
 
-\faEnvelope \quad \hspace{0.5mm} \href{mailto:andhrelja@hotmail.com}{andhrelja@hotmail.com} \\[0.5ex]
-\faLinkedin \quad \hspace{1mm} \href{https://www.linkedin.com/in/andhrelja/}{linkedin/andhrelja} \\[0.5ex]
-\faGithub \quad \hspace{1mm} \href{https://github.com/andhrelja}{github/andhrelja} \\[0.5ex]
+\faEnvelope \quad \hspace{0.5mm} \href{mailto:\VAR{author.email}}{\VAR{author.email}} \\[0.5ex]
+\faLinkedin \quad \hspace{1mm} \href{\VAR{author.website}}{\VAR{author.website_pretty}} \\[0.5ex]
+\faGithub \quad \hspace{1mm} \href{\VAR{author.github}}{\VAR{author.github_pretty}} \\[0.5ex]
 
 \normalsize
 
 \headleft{Personal information}
 %Year of birth: \textbf{1861} \\[0.5ex]
-Location: \textbf{Rijeka, Croatia} \\[0.5ex]
-Hobbies:  Reading;  Road Trips;  Movies;  \\[0.5ex]
-Languages:  \textbf{Croatian} (L1);  \textbf{English} (C1);  \textbf{Italian} (A2);  \\[0.5ex]
+Location: \textbf{\VAR{author.location}} \\[0.5ex]
+Hobbies: \BLOCK{for hobby in hobbies} \VAR{hobby}; \BLOCK{endfor} \\[0.5ex]
+Languages: \BLOCK{for language, level in languages} \textbf{\VAR{language}} (\VAR{level}); \BLOCK{endfor} \\[0.5ex]
 
 \headleft{Skills}
 \begin{itemize}
-     
-    \item Bash
-     
-    \item CI/CD
-     
-    \item Docker
-     
-    \item Git
-     
-    \item GitHub Actions
-     
-    \item Kubernetes
-     
-    \item Linux
-     
-    \item Python
-     
-    \item SQL
-     
-    \item Terraform
-        \item Communication and team collaboration
+    \BLOCK{for tech in tech_stack} 
+    \item \VAR{tech}
+    \BLOCK{endfor}
+    \item Communication and team collaboration
 \end{itemize} 
 
 \end{minipage}%
@@ -135,47 +118,27 @@ Languages:  \textbf{Croatian} (L1);  \textbf{English} (C1);  \textbf{Italian} (A
 
 \vspace{2ex}
 
-\headright{Experience}
+\headright{Experiences}
 
-\textsc{Kern AI Gmbh}  \dates{11/2023--Present}  \\
+\BLOCK{for experience in professional_experience}
+\textsc{\VAR{experience.company_name}}  \dates{\VAR{experience.start_date}--\VAR{experience.end_date}}  \\
 
-    \textbf{\textit{Cloud Engineer}} \dates{11/2023--Present} \\
-            \smaller{Led the migration of a production system from DigitalOcean to Azure Kubernetes Service, improving system scalability and reliability} \\
+\BLOCK{for role in experience.roles}
+    \textbf{\textit{\VAR{role.title}}} \dates{\VAR{role.start_date}--\VAR{role.end_date}} \\
+    \BLOCK{for description in role.description}
+        \smaller{\VAR{description}} \\
         \is
-            \smaller{Designed and implemented a CI/CD pipeline using OpenTofu, GitHub Actions, and Kubernetes, streamlining the deployment process and reducing manual errors} \\
-        \is
-            \smaller{Consolidated multiple environment-specific infrastructure stacks into a single OpenTofu stack, improving consistency and reducing maintenance overhead across environments} \\
-        \is
-    \textsc{iOLAP Inc.}  \dates{07/2019--11/2023}  \\
+    \BLOCK{endfor}
+\BLOCK{endfor}
+\BLOCK{endfor}
 
-    \textbf{\textit{DataOps Engineer}} \dates{12/2021--11/2023} \\
-            \smaller{Developed a version-controlled SQL CI/CD pipeline using Python, AWS, and Snowflake technologies, improving deployment speed, accuracy and reliability for multiple SQL development teams} \\
-        \is
-            \smaller{Collaborated with cross-functional teams and clients to design tailored solutions, handling discovery, requirements gathering, and strategy discussions} \\
-        \is
-            \smaller{Built and maintained the CI/CD infrastructure, streamlining data warehouse development across teams} \\
-        \is
-        \textbf{\textit{Data Engineer}} \dates{07/2021--10/2021} \\
-            \smaller{Developed a Python ELT pipeline on AWS, optimizing data processing and flow} \\
-        \is
-            \smaller{Collaborated with system architects to design a scalable, efficient data architecture for downstream analytics} \\
-        \is
-            \smaller{Delivered a robust ETL solution, ensuring data consistency and quality} \\
-        \is
-        \textbf{\textit{Accomplishments and Acknowledgments}} \dates{2020--2023} \\
-            \smaller{Python \& Cloud Computing mentor @ iOLAP Academy} \\
-        \is
-            \smaller{'Top Performer' award in 2022} \\
-        \is
-    
 \headright{Education}
 
-    \textsc{univ. ms. inf.} \dates{2020--2022} \\
-    \textit{Faculty of Informatics and Digital Technologies, University of Rijeka} \\
+\BLOCK{for education in education}
+    \textsc{\VAR{education.education_outcome}} \dates{\VAR{education.start_date}--\VAR{education.end_date}} \\
+    \textit{\VAR{education.institution_name}} \\
     \is
-    \textsc{univ. bacc. inf.} \dates{2016--2020} \\
-    \textit{Department of Informatics, University of Rijeka} \\
-    \is
+\BLOCK{endfor}
 
 
 \end{minipage}

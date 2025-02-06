@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/andhrelja/resume-builder/compare/v1.0.2...v1.1.0) (2025-02-06)
+
+
+### Features
+
+* update cv template ([5a58b25](https://github.com/andhrelja/resume-builder/commit/5a58b25190f0cb06bd044db187d9d068dd1fd77d))
+
+
+
 ## [1.0.2](https://github.com/andhrelja/resume-builder/compare/v1.0.1...v1.0.2) (2025-01-28)
 
 
