@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/andhrelja/resume-builder/compare/v1.2.0...v1.2.1) (2025-11-19)
+
+
+### Performance Improvements
+
+* polish 2025 ([ff12721](https://github.com/andhrelja/resume-builder/commit/ff1272110d3d2f6348b221dd8e8ee4fa3937ec82))
+
+
+
 # [1.2.0](https://github.com/andhrelja/resume-builder/compare/v1.0.2...v1.2.0) (2025-02-06)
 
 
