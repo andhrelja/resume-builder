@@ -2,14 +2,14 @@
     "author": {
         "first_name": "Andrea",
         "last_name": "Hrelja",
-        "location": "Rijeka, Croatia",
+        "location": "Pula, Croatia",
         "year_of_birth": "1996",
         "email": "andhrelja@hotmail.com",
         "github": "https://github.com/andhrelja",
         "github_pretty": "github/andhrelja",
         "website": "https://www.linkedin.com/in/andhrelja/",
         "website_pretty": "linkedin/andhrelja",
-        "about": "IT enthusiast with 4+ years of professional experience as a \\textit{Data Engineer} and 1+ years of professional experience as a \\textit{Platform/DevOps Engineer}. I have worked with various production systems and clients, as a team member and as a one-man band. I am a positive, detail-oriented, productive individual with a can-do attitude driven by impact."
+        "about": "IT enthusiast with 4+ years of professional experience as a \\textit{Data Engineer}, 2+ years of professional experience as a \\textit{Platform/DevOps Engineer} and 1+ years of professional experience in \\textit{Backend Software Development}. I have worked with various production systems and clients, as a team member and as a one-man band. I am a positive, detail oriented, result focused, productive individual with a can-do attitude driven by impact."
     },
     "professional_experience": [
         {
@@ -24,6 +24,7 @@
                     "description": [
                         "Led the migration of a production system from DigitalOcean to Azure Kubernetes Service, improving system scalability and reliability",
                         "Designed and implemented an IaC development platform followed by a CI/CD pipeline using OpenTofu (Terraform), GitHub Actions, and Kubernetes, streamlining the deployment process and reducing manual errors",
+                        "Designed and implemented on-premise monitoring and alerting solutions using Prometheus and Grafana, enhancing system observability and proactive issue resolution",
                         "Consolidated multiple environment-specific infrastructure stacks into a single OpenTofu stack, improving consistency and reducing maintenance overhead across environments"
                     ],
                     "sdlc": [
@@ -46,7 +47,7 @@
                     "start_date": "12/2021",
                     "end_date": "11/2023",
                     "description": [
-                        "Developed a version-controlled SQL CI/CD pipeline using Python, AWS, and Snowflake technologies, improving deployment speed, accuracy and reliability for multiple SQL development teams",
+                        "Developed a version control SQL CI/CD pipeline using Python, AWS, and Snowflake technologies (CodeBuild, GitHub Actions, Flyway), improving deployment speed, accuracy and reliability for multiple SQL development teams",
                         "Collaborated with cross-functional teams and clients to design tailored solutions, handling discovery, requirements gathering, and strategy discussions",
                         "Built and maintained the CI/CD infrastructure, streamlining data warehouse development across teams"
                     ],
@@ -60,28 +61,18 @@
                 },
                 {
                     "title": "Data Engineer",
-                    "start_date": "07/2021",
+                    "start_date": "07/2019",
                     "end_date": "10/2021",
                     "description": [
-                        "Developed a Python ELT pipeline on AWS, optimizing data processing and flow",
-                        "Collaborated with system architects to design a scalable, efficient data architecture for downstream analytics",
-                        "Delivered a robust ETL solution, ensuring data consistency and quality"
+                        "Developed ETL/ELT pipelines on-prem (SQL, Oracle Data Integrator, SSMS) and AWS (DynamoDB, Glue, Lake Formation, Lambda, Redshift)",
+                        "Collaborated with system architects to design scalable, efficient data architectures for downstream analytics",
+                        "Delivered robust ETL solutions, ensuring data consistency and quality"
                     ],
                     "sdlc": [
                         "Design",
                         "Development",
                         "Testing"
                     ]
-                },
-                {
-                    "title": "Accomplishments and Acknowledgments",
-                    "start_date": "2020",
-                    "end_date": "2023",
-                    "description": [
-                        "Python \\& Cloud Computing mentor @ iOLAP Academy",
-                        "'Top Performer' award in 2022"
-                    ],
-                    "sdlc": []
                 }
             ]
         }

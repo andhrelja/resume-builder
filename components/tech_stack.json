@@ -78,10 +78,14 @@
         "Linux": 3,
         "Terraform": 3,
         "Unix": 2,
-        "OpenAI": 2
+        "OpenAI": 2,
+        "Prometheus": 3,
+        "Grafana": 3
     },
     "Other": {
-        "CI/CD": 3,
+        "Azure": 3,
+        "AWS": 3,
+        "CI/CD": 2,
         "Data Modeling": 2,
         "LLM RAG": 2,
         "Machine Learning": 1,

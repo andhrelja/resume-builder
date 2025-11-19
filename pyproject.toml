@@ -16,11 +16,15 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Natural Language :: Croatian",
     "Natural Language :: English",
     "License :: Freely Distributable",
     "Topic :: Office/Business",
     "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "jinja2>=3.1.2"
 ]
 
 [tool.setuptools.packages.find]

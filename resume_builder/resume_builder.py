@@ -20,7 +20,7 @@ def get_tech_stack(tech_stack: dict[dict[str, int]]) -> list[str]:
     for tech in tech_stack.values():
         public_stack = filter(lambda x: x[1] == 3, tech.items())
         pytexs += [x[0] for x in public_stack]
-    return sorted(pytexs) or [
+    return sorted(set(pytexs)) or [
         "Python",
         "SQL",
         "Terraform",
